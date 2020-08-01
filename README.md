@@ -1,7 +1,6 @@
 # Image Classification with CIFAR-10 dataset
-In this notebook, I am going to classify images from the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).  The dataset consists of airplanes, dogs, cats, and other objects. You'll preprocess the images, then train a convolutional neural network on all the samples. The images need to be normalized and the labels need to be one-hot encoded. Some more interesting datasets can be found [here](http://rodrigob.github.io/are_we_there_yet/build/#datasets)
+In this notebook, I am going to classify images from the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).  The dataset consists of airplanes, automobiles, birds, dogs, cats, deer and other objects. You'll preprocess the images, then train a convolutional neural network on all the samples. The images need to be normalized and the labels need to be one-hot encoded. 
 
-Some of the code and description of this notebook is borrowed by [this repo](https://github.com/udacity/deep-learning/tree/master/image-classification) provided by Udacity's Deep Learning Nanodegree program. This notebook has been reproduced decorated with richer descriptions after completing the Udacity's project.
 
 # Contents
 ##### 1. Get the Data
@@ -71,3 +70,6 @@ achieving over 75% accuracy in 10 epochs through 5 batches.
 
 # 7. Prediction
 <img src="./prediction.PNG" alt="Drawing"/>
+
+# 8. Improvements
+Using dropout regularization, data augmentation and batch normalization we can improve the accuracy to 88%.
